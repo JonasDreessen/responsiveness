@@ -1,0 +1,87 @@
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+  #small{
+    width: 100%;
+}
+
+#medium{
+    width: 100%;
+}
+#large{
+    width: 100%;
+    
+}
+div{
+  display: inline-block;
+}
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  
+  #small{
+      width: 65%;
+  }
+
+  #medium{
+      width: 33%;
+  }
+  #large{
+      width: 100%;
+      
+  }
+  div{
+    display: inline-block;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+   
+  }
+  #small{
+    width: 33%;
+}
+
+#medium{
+    width: 33%;
+}
+#large{
+    width: 33%;
+    
+}
+div{
+  display: inline-block;
+}
+}
+
+#small > h3{
+    font-size: 16px;
+}
+
+#small > p{
+    font-size: 12px;
+}
+
+#medium > h3{
+    font-size: 20px;
+}
+
+#medium > p{
+    font-size: 16px;
+}
+
+#large > h3{
+    font-size: 24px;
+}
+
+#large > p{
+    font-size: 20px;
+}
